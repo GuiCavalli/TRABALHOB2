@@ -15,18 +15,9 @@ class ListarEventosActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.listar_eventos)
 
-//        val addButton: Button = findViewById(R.id.btn_add_evento)
-        val eventoInput: EditText = findViewById(R.id.input_evento)
-//        val eventosList: TextView = findViewById(R.id.text_eventos)
 
-//        addButton.setOnClickListener {
-//            val evento = eventoInput.text.toString()
-//            if (evento.isNotEmpty()) {
-//                eventos.add(evento)
-//                eventoInput.text.clear()
-//                eventosList.text = eventos.joinToString("\n")
-//            }
-//        }
+        val eventoInput: EditText = findViewById(R.id.input_evento)
+
 
         val cadastrarButton: Button = findViewById(R.id.btn_add_evento)
         cadastrarButton.setOnClickListener {
