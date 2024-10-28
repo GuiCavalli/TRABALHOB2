@@ -1,0 +1,54 @@
+Gestão de Esporte.
+
+Escopo do Projeto
+Tema do Aplicativo:
+Aplicativo de Gestão de Esportes para auxiliar atletas e treinadores a gerenciar treinos e eventos.
+
+Finalidade:
+Oferecer uma plataforma simples para registro de treinos e agendamento de eventos, facilitando a organização das atividades esportivas.
+
+Principais Funcionalidades:
+
+Registro de Treinos: Permitir que usuários registrem atividades de treino.
+Lista de Treinos: Exibir uma lista simples dos treinos registrados.
+Agendamento de Eventos: Possibilidade de anotar eventos esportivos.
+Telas a serem Desenvolvidas:
+
+Tela Inicial: Menu com opções para registrar treinos e ver a lista de treinos.
+Tela de Treinos: Formulário para registrar novos treinos e uma lista dos treinos anteriores.
+Tela de Eventos: Um campo simples para anotar eventos esportivos.
+
+Navegação entre as Telas:
+Tela Inicial → Tela de Treinos: Através de um botão "Treinos".
+Tela Inicial → Tela de Eventos: Através de um botão "Eventos".
+Tela de Treinos → Tela Inicial: Botão "Voltar" para retornar ao menu principal.
+Tela de Eventos → Tela Inicial: Botão "Voltar" para retornar ao menu principal.
+Público-Alvo:
+
+Atletas e treinadores que buscam uma maneira fácil de registrar e acompanhar suas atividades.
+
+Prova de Conceito (POC)
+Desenvolvimento da POC: A POC terá três telas implementadas em Kotlin:
+
+Tela Inicial
+Dois botões: "Treinos" e "Eventos".
+Uso de Intent para navegação para a Tela de Treinos e Tela de Eventos.
+
+Tela de Treinos
+Um formulário simples com campos para registrar o tipo de treino.
+Uma lista exibindo os treinos já registrados.
+Botão "Voltar" para retornar à Tela Inicial.
+
+Tela de Eventos
+Um campo de texto para anotar um evento esportivo.
+Um botão "Cadastrar Evento" para cadastrar o evento.
+Botão "Voltar" para retornar à Tela Inicial.
+
+Tipos de Navegação:
+Navegação por Botões: Usando Intent para transição entre as telas.
+Navegação por Botões "Voltar": Implementação simples para facilitar a navegação.
+Documentação
+A documentação incluirá:
+
+Descrição do projeto e suas funcionalidades.
+Estrutura das telas e navegação.
