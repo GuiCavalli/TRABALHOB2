@@ -18,7 +18,6 @@ class CadastrarEventosActivity : AppCompatActivity() {
 
         val eventoInput: EditText = findViewById(R.id.input_evento)
 
-//        val eventosList: TextView = findViewById(R.id.text_eventos)
 
         addButton.setOnClickListener {
 
@@ -26,7 +25,6 @@ class CadastrarEventosActivity : AppCompatActivity() {
             if (evento.isNotEmpty()) {
                 eventos.add(evento)
                 eventoInput.text.clear()
-//                eventosList.text = eventos.joinToString("\n")
             }
         }
 
